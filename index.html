@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href="stylesheet.css">
+        <title>My Page</title>
+    </head>
+    <body>
+        <h1>Welcome!</h1>
+
+        <h2>Hi I'm Sharon</h2>
+        <h4>Data Analyst & Researcher</h4>
+
+        <p>I am an enthusiastic and detail-oriented professional with hands-on experience in market
+research at Meta, specializing in campaign performance analysis and lift studies.
+Currently, I am building technical skills in Python and computer science fundamentals to
+enhance my capabilities in data automation, digital analytics, and web content development,
+with the goal of becoming a full-stack specialist.I am eager to apply my growing technical expertise in Python scripting and basic web
+development to support cross-functional teams in fast-paced environments, leveraging both
+creative and analytical thinking to drive data-informed decision-making.
+        </p>
+        <h3>Professional Experience</h3>
+        <table class = "experience">
+            <thead>
+                <tr>
+                    <th>Company </th>
+                    <th>Position</th>
+                    <th>Worked From</th>
+                    <th>Roles</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Accenture (Client: Meta) , Hyderabad, India Marketing & Research Analyst | Expert in Meta Campaign Performance & Market Lift Studies</td>
+                    <td>Measurement and Research Associate</td>
+                    <td>July 2023 – April 2025</td>
+                    <td>
+                        <ul>
+                            <li>Set up Brand Lift and Conversion Lift studies for major brands across various markets on the Meta platform.</li>
+                            <li>Led new initiatives within the team, driving innovation and improving operational workflows.</li>
+                            <li>Collaborated with agencies to design, launch, and monitor market research studies.</li>
+                            <li>Analyzed campaign performance using Ads Manager and presented insights to clients.</li>
+                            <li>Conducted training for new associates, enhancing onboarding processes.</li>
+                            <li>Contributed to team-wide initiatives across multiple regions.</li>
+                            <li>Recognised as Best Performer – Q2, FY 2024.</li>
+                            <li>Contributed to the team’s Quality Analysis Team, ensuring 100% adherence to client KPIs and maintainig top-tier performance standards.</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Freelancing</td>
+                    <td>Data Analyst & Researcher</td>
+                    <td>April 2025 – Present</td>
+                    <td>
+                        <ul>
+                            <li>Collect, clean, and validate datasets from multiple sources to support research projects across various
+                                industries</li>
+                            <li>
+                                Analyze and manipulate data using Python, Google Sheets (including advanced formulas), and AI-
+powered tools.
+                            </li>
+                            <li>Create automated workflows to streamline data processing and reporting.</li>
+                            <li>Develop clear visualizations and reports to present actionable insights to clients.</li>
+                            <li>C
+                                ollaborate with stakeholders to refine research methodologies and ensure data integrity.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Internships</h3>
+
+        <h3>Skills</h3>
+        <h3>Projects</h3>
+        <h3>Courses & Training</h3>
+        <h3>Education</h3>
+
+        <label for="education">Education Level</label>
+        <select id="education" name="education" onchange="showEducation()">
+            <option value="" disabled selected>Select Education</option>
+            <option value="Clinical Research | St. Xavier’s College, Mumbai | June 2022 – May 2023">Post Graduate Diploma</option>
+            <option value="Psychology, Economics, Public Administration | Panjab University, Chandigarh | June 2019 – May 2022">Bachelor of Arts</option>
+            <option value="St. Xavier’s School (ISC) | Ranchi, Jharkhand | June 2016 – May 2018">Senior Secondary Education</option>
+            <option value="Bishop Westcott Girl’s School (ICSE) | Ranchi, Jharkhand | Graduated on May 2016">Secondary Education</option>
+        </select>
+
+        <p id="education-display" style="margin-top: 10px; font-weight: bold;"></p>
+
+        <script>
+        function showEducation() {
+            const select = document.getElementById('education');
+            const display = document.getElementById('education-display');
+
+            // Show the selected option's value
+            display.textContent = select.value;
+        }
+        </script>
+        
+        
+        <h3>Contact Details</h3>
+        <table class="contact">
+            <thead>
+                <tr>
+                    <th>EMIAL ID</th>
+                    <th>PHONE NO.</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>gracesingh.06@gmail.com</td>
+                    <td>+91 9006448073</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h3><a href="reference.html">Refenrence Letter</a></h3>
+
+
+        
+
+    </body>
+    
+</html>
